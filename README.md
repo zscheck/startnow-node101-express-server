@@ -1,0 +1,1 @@
+Uses Express to GET requests to / and /data with data from data.json.  Uses morgan's dev format to log all requests.  
