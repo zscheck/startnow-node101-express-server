@@ -7,9 +7,8 @@ var app= express();
 
 // add your routes and middleware below
 app.use(morgan('dev'));
-app.get('/', function(req,res){
-    res.send("");
-});
+app.use(express.static('../startnow-web101-san-diego-top-spots/'));
+
 app.get('/data',function(req,res){
     res.send(topspot);
 })
